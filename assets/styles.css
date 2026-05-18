@@ -299,7 +299,9 @@
 
     .sidebar .author__name {
       font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-      font-size: 1em;
+      color: #33383b;
+      font-size: 1.08em;
+      letter-spacing: 0;
     }
 
     .author__pronouns,
@@ -307,10 +309,23 @@
       margin: 0;
     }
 
+    .author__pronouns {
+      color: #7a8288;
+      font-size: 0.68em;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .author__bio {
+      color: #494e52;
+    }
+
     @media (min-width: 57.8125em) {
       .author__bio {
         margin-top: 10px;
         margin-bottom: 20px;
+        line-height: 1.5;
       }
     }
 
@@ -459,7 +474,9 @@
 
     .sidebar-news h3 {
       margin-top: 0;
-      margin-bottom: 0.45em;
+      margin-bottom: 0.55em;
+      color: #33383b;
+      letter-spacing: 0;
     }
 
     .sidebar-news ul {
@@ -469,9 +486,15 @@
     }
 
     .sidebar-news li {
-      margin-bottom: 0.75em;
-      color: #494e52;
+      margin-bottom: 0.8em;
+      color: #5b6165;
       line-height: 1.45;
+    }
+
+    .sidebar-news li strong {
+      color: #33383b;
+      font-weight: 800;
+      letter-spacing: 0;
     }
 
     .page {

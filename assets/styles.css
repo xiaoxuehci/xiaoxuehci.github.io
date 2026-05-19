@@ -586,6 +586,15 @@
       margin-top: 1.5em;
     }
 
+    .work-category {
+      margin: 0.9rem 0 0.65rem;
+      color: #5b6165;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
     mark.tag-label {
       padding: 1px 0;
       background-color: #fff;
@@ -602,7 +611,7 @@
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 1.05rem 0.85rem;
-      margin: 1.1rem 0 2.4rem;
+      margin: 0 0 2rem;
     }
 
     .work-card {

@@ -424,13 +424,18 @@
       padding-top: 2px;
       padding-right: 5px;
       padding-bottom: 2px;
-      color: inherit;
+      color: #2f6f73;
       font-size: 1em;
-      text-decoration: none;
+      font-weight: 650;
+      text-decoration: underline;
+      text-decoration-color: rgba(47, 111, 115, 0.28);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
     }
 
     .author__urls a:hover {
-      text-decoration: underline;
+      color: #244f53;
+      text-decoration-color: currentColor;
     }
 
     .author__urls .profile-line {
@@ -443,7 +448,7 @@
     .social-icons .icon {
       display: inline-block;
       width: 1.25em;
-      color: #000;
+      color: currentColor;
       text-align: center;
       text-indent: 0;
     }
@@ -460,7 +465,7 @@
     .social-icons .icon-text {
       display: inline-block;
       width: 1.25em;
-      color: #000;
+      color: currentColor;
       font-size: 0.82em;
       font-weight: 700;
       text-align: center;

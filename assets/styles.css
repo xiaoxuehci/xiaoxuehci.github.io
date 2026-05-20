@@ -757,6 +757,60 @@
       line-height: 1.45;
     }
 
+    .publication-page {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 0 1rem 4rem;
+    }
+
+    .publication-header {
+      max-width: 780px;
+      margin: 2.5rem 0 2rem;
+    }
+
+    .publication-header h1 {
+      margin-bottom: 0.55rem;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+
+    .publication-header p {
+      color: #5b6165;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .publication-section {
+      margin-top: 2.2rem;
+    }
+
+    .publication-section h2 {
+      margin-bottom: 0.7rem;
+      color: #494e52;
+      font-size: 1.08rem;
+    }
+
+    .publication-list {
+      margin: 0;
+      padding-left: 1.35rem;
+    }
+
+    .publication-list li {
+      margin-bottom: 1rem;
+      padding-left: 0.2rem;
+    }
+
+    .publication-list p {
+      margin: 0;
+      line-height: 1.62;
+    }
+
+    .publication-list a {
+      color: #33383b;
+      text-decoration: underline;
+      text-underline-offset: 0.15rem;
+    }
+
     .blog-page {
       max-width: 880px;
       margin: 2.4rem auto 5rem;

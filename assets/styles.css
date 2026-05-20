@@ -757,15 +757,9 @@
       line-height: 1.45;
     }
 
-    .publication-page {
-      max-width: 880px;
-      margin: 0 auto;
-      padding: 0 1rem 4rem;
-    }
-
     .publication-header {
       max-width: 780px;
-      margin: 2.5rem 0 2rem;
+      margin: 0 0 2rem;
     }
 
     .publication-header h1 {

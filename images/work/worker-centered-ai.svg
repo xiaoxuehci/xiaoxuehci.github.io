@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Worker-centered AI workshop concept image</title>
+  <desc id="desc">A desk-like composition with worker-side notes, data traces, and AI blocks arranged away from a manager dashboard.</desc>
+  <rect width="900" height="900" fill="#f5f6f4"/>
+  <rect x="92" y="96" width="716" height="708" rx="20" fill="#ffffff" stroke="#dfe5e2" stroke-width="4"/>
+  <path d="M170 188h338v92H170z" fill="#dbe8e4"/>
+  <path d="M170 318h238v50H170zM170 396h292v50H170zM170 474h204v50H170z" fill="#ebefed"/>
+  <path d="M514 188h166v166H514z" fill="#f0d8ce"/>
+  <path d="M546 252h102M596 200v104" stroke="#9d594b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M514 404h206v186H514z" fill="#e8efe9"/>
+  <circle cx="580" cy="468" r="34" fill="#2f6f73"/>
+  <circle cx="654" cy="526" r="34" fill="#8aa59d"/>
+  <path d="M174 642c82-62 168-66 258-12s176 42 258-38" fill="none" stroke="#2f6f73" stroke-width="16" stroke-linecap="round"/>
+  <path d="M178 716h206M178 750h142M512 678h190M512 712h132M512 746h166" stroke="#4f5b5f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M698 214l52-34v190l-52-34z" fill="#4f5b5f"/>
+  <path d="M704 396l58 42-58 42" fill="none" stroke="#bdc8c4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="226" cy="234" r="24" fill="#2f6f73"/>
+  <path d="M266 222h184M266 252h126" stroke="#4f5b5f" stroke-width="10" stroke-linecap="round"/>
+</svg>

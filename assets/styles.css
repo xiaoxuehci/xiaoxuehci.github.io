@@ -111,7 +111,7 @@
 
     @media (min-width: 80em) {
       .masthead__inner-wrap {
-        max-width: 1280px;
+        max-width: 1180px;
       }
     }
 
@@ -176,7 +176,7 @@
 
     @media (min-width: 80em) {
       #main {
-        max-width: 1280px;
+        max-width: 1180px;
       }
     }
 
@@ -205,9 +205,9 @@
 
     @media (min-width: 57.8125em) {
       .sidebar {
-        width: 15.2542372881%;
+        width: 16%;
         float: left;
-        margin-right: 1.6949152542%;
+        margin-right: 2.2%;
         opacity: 1;
       }
     }
@@ -252,8 +252,8 @@
 
     @media (min-width: 57.8125em) {
       .author__avatar-frame {
-        width: 175px;
-        height: 175px;
+        width: 150px;
+        height: 150px;
         padding: 5px;
       }
     }
@@ -508,11 +508,11 @@
 
     @media (min-width: 57.8125em) {
       .page {
-        width: 83.0508474576%;
+        width: 81.8%;
         float: right;
         margin-right: 0;
-        padding-left: 4.2372881356%;
-        padding-right: 16.9491525424%;
+        padding-left: 2.4%;
+        padding-right: 8%;
       }
     }
 
@@ -552,12 +552,12 @@
     }
 
     .opening-title {
-      max-width: 900px;
+      max-width: 740px;
       margin-top: 0;
       margin-bottom: 0.65em;
       color: #494e52;
-      font-size: clamp(2.15rem, 4.4vw, 3.85rem);
-      line-height: 1.07;
+      font-size: clamp(2.05rem, 3.55vw, 3.15rem);
+      line-height: 1.08;
     }
 
     .opening-title span {
@@ -894,7 +894,7 @@
 
     @media (min-width: 80em) {
       .page__footer footer {
-        max-width: 1280px;
+        max-width: 1180px;
       }
     }
 

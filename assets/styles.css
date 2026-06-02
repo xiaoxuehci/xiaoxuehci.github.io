@@ -1211,13 +1211,18 @@
       border-radius: 4px;
       background: var(--surface-soft);
       box-shadow: var(--shadow-soft);
-      filter: saturate(0.94) contrast(1.02);
+      filter: saturate(0.86) contrast(0.94) brightness(1.01);
+    }
+
+    .blog-figure img {
+      filter: saturate(0.86) contrast(0.94) brightness(1.01);
     }
 
     .work-card:hover img,
     .archive-card:hover img {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 28px rgba(38, 50, 56, 0.09);
+      opacity: 0.96;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(38, 50, 56, 0.06);
     }
 
     .work-card__meta {

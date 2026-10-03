@@ -1361,6 +1361,41 @@
       background: var(--surface-soft);
     }
 
+    .work-card img.worker-concepts-cover,
+    .archive-card img.worker-concepts-cover {
+      object-fit: contain;
+      background: #faf6ef;
+    }
+
+    .work-card img.research-material-cover,
+    .archive-card img.research-material-cover {
+      object-fit: contain;
+      background: #fff;
+      filter: none;
+    }
+
+    .project-evidence--compact {
+      max-width: 480px;
+      margin-inline: auto;
+    }
+
+    .blog-figure.project-evidence img {
+      height: auto;
+      aspect-ratio: auto;
+      max-height: none;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      filter: none;
+    }
+
+    .project-evidence figcaption {
+      margin-top: 0.65rem;
+      color: #667177;
+      font-size: 0.8rem;
+      line-height: 1.55;
+    }
+
     .blog-links a {
       border-color: var(--line);
       color: var(--text);

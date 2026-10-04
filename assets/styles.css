@@ -714,6 +714,73 @@
       color: var(--accent-strong);
     }
 
+    .page__content .research-epigraph {
+      max-width: 30rem;
+      margin: 3rem 0 3rem auto;
+      padding: 0 0 0 1.4rem;
+      border-left: 1px solid var(--line);
+      text-align: left;
+    }
+
+    .research-epigraph blockquote {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    .page__content .research-epigraph__text {
+      margin: 0;
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1rem, 1.8vw, 1.12rem);
+      font-style: italic;
+      line-height: 1.75;
+      text-wrap: pretty;
+    }
+
+    .page__content .research-epigraph__ellipsis {
+      margin: 0.8rem 0;
+      color: var(--muted);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+
+    .research-epigraph figcaption {
+      margin-top: 1.4rem;
+      color: var(--muted);
+      font-size: 0.76rem;
+      line-height: 1.6;
+      text-align: right;
+    }
+
+    .research-epigraph__author {
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    .research-epigraph cite {
+      font-style: normal;
+    }
+
+    .research-epigraph figcaption a {
+      color: inherit;
+      text-decoration-color: var(--line);
+      text-underline-offset: 0.15em;
+    }
+
+    .research-epigraph figcaption a:hover {
+      color: var(--accent-strong);
+      text-decoration-color: currentColor;
+    }
+
+    @media (max-width: 34em) {
+      .page__content .research-epigraph {
+        margin: 2.25rem 0;
+        padding: 0 0 0 1rem;
+      }
+    }
+
     .publication-list {
       display: grid;
       grid-template-columns: 1fr;

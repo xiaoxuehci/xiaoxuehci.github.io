@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<title>Reference checklist</title>
+<style>
+body{max-width:34rem;margin:15vh auto;padding:0 1.25rem;background:#f3f6f3;color:#182c27;font:1rem/1.55 system-ui,sans-serif}
+h1{font:normal 2.35rem Georgia,serif;margin:0 0 .65rem}
+</style>
+</head>
+<body>
+<main><h1>Reference checklist</h1><p id="notice">This page needs a private access link.</p>
+<noscript>Enable JavaScript to open the checklist.</noscript></main>
+<script>
+const key = location.hash.slice(1);
+if (/^[a-f0-9]{64}$/.test(key)) {
+  document.querySelector('#notice').textContent = 'Opening checklist…';
+  location.replace('https://xue-reference-checklist.politeshell2048.chatgpt.site/open#' + key);
+}
+</script>
+</body>
+</html>
